@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Xuan Huang - academic homepage">
+  <title>Xuan Huang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#about">Xuan Huang</a>
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#about">Home</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <aside class="profile">
+          <div class="avatar" aria-hidden="true">XH</div>
+          <h1>Xuan Huang</h1>
+          <p class="role">Student</p>
+          <p class="affiliation">Sun Yat-Sen University</p>
+          <div class="profile-links">
+            <a href="https://scholar.google.com/citations?user=liHuqdgAAAAJ&hl=en&oi=sra">Google Scholar</a>
+            <a href="https://github.com/XuanHuang0">GitHub</a>
+          </div>
+        </aside>
+
+        <div class="bio">
+          <p>
+            I am a student at <a href="https://www.sysu.edu.cn/">Sun Yat-Sen University</a>, working on
+            computer vision, 3D reconstruction, and hand-centric human-object interaction. My recent research
+            studies neural radiance fields, 3D Gaussian splatting, monocular 3D hand recovery, and generation
+            of hand-object interaction videos.
+          </p>
+          <p>
+            I am interested in building practical 3D vision systems that can recover, animate, and generate
+            realistic hands and hand-object interactions from unconstrained visual inputs.
+          </p>
+
+          <div class="info-columns">
+            <div id="contact">
+              <h2>Contact</h2>
+              <ul class="plain-list">
+                <li>mail2.sysu.edu.cn verified email</li>
+                <li><a href="https://scholar.google.com/citations?user=liHuqdgAAAAJ&hl=en&oi=sra">Google Scholar profile</a></li>
+              </ul>
+            </div>
+
+            <div id="education">
+              <h2>Education</h2>
+              <ul class="plain-list">
+                <li>
+                  <strong>Student</strong>
+                  <span>Sun Yat-Sen University</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2>Research Interests</h2>
+              <ul class="plain-list">
+                <li>3D hand reconstruction</li>
+                <li>Hand-object interaction</li>
+                <li>Neural rendering and 3D generation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-section">
+      <div class="container stats-grid" aria-label="Google Scholar statistics">
+        <div>
+          <span class="stat-value">8</span>
+          <span class="stat-label">Citations</span>
+        </div>
+        <div>
+          <span class="stat-value">2</span>
+          <span class="stat-label">h-index</span>
+        </div>
+        <div>
+          <span class="stat-value">0</span>
+          <span class="stat-label">i10-index</span>
+        </div>
+        <div>
+          <span class="stat-value">5</span>
+          <span class="stat-label">Articles</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section publications-section">
+      <div class="container">
+        <h2 class="section-title">Selected Publications</h2>
+        <ul class="publications">
+          <li class="publication featured">
+            <div class="thumb">
+              <img src="assets/visibility-nerf.png" alt="3D visibility-aware generalizable neural radiance fields thumbnail">
+            </div>
+            <div class="pub-body">
+              <h3>3D visibility-aware generalizable neural radiance fields for interacting hands</h3>
+              <p class="authors"><strong>Xuan Huang</strong>, Hanhui Li, Zejun Yang, Zhisheng Wang, Xiaodan Liang</p>
+              <p class="venue">Proceedings of the AAAI Conference on Artificial Intelligence 38(3), 2400-2408, 2024</p>
+              <p class="meta">Cited by 4</p>
+            </div>
+          </li>
+
+          <li class="publication featured">
+            <div class="thumb">
+              <img src="assets/interaction-gs.png" alt="Interaction-aware 3D Gaussian splatting thumbnail">
+            </div>
+            <div class="pub-body">
+              <h3>Learning interaction-aware 3D Gaussian splatting for one-shot hand avatars</h3>
+              <p class="authors"><strong>Xuan Huang</strong>, Hanhui Li, Wanquan Liu, Xiaodan Liang, Yiqiang Yan, Yuhao Cheng, Chenqiang Gao</p>
+              <p class="venue">Advances in Neural Information Processing Systems 37, 14127-14147, 2024</p>
+              <p class="meta">Cited by 2</p>
+            </div>
+          </li>
+
+          <li class="publication">
+            <div class="thumb placeholder">DNE</div>
+            <div class="pub-body">
+              <h3>Monocular 3D hand mesh recovery via dual noise estimation</h3>
+              <p class="authors">Hanhui Li, X Lin, <strong>Xuan Huang</strong>, Zejun Yang, Zhisheng Wang, Xiaodan Liang</p>
+              <p class="venue">Proceedings of the AAAI Conference on Artificial Intelligence 38(4), 3046-3054, 2024</p>
+              <p class="meta">Cited by 2</p>
+            </div>
+          </li>
+
+          <li class="publication">
+            <div class="thumb">
+              <img src="assets/genhoi.png" alt="GenHOI thumbnail">
+            </div>
+            <div class="pub-body">
+              <h3>GenHOI: Towards Object-Consistent Hand-Object Interaction with Temporally Balanced and Spatially Selective Object Injection</h3>
+              <p class="authors"><strong>Xuan Huang</strong>, Mochu Xiang, Zhelun Shen, Jinbo Wu, Chenming Wu, Chen Zhao, Kaisiyuan Wang, Hang Zhou, Shanshan Liu, Haocheng Feng, Wei He, Jingdong Wang</p>
+              <p class="venue">arXiv preprint arXiv:2603.06048, 2026</p>
+              <p class="resources">[ <a href="https://arxiv.org/abs/2603.06048">Paper</a> ]</p>
+            </div>
+          </li>
+
+          <li class="publication">
+            <div class="thumb">
+              <img src="assets/wildghand.png" alt="WildGHand thumbnail">
+            </div>
+            <div class="pub-body">
+              <h3>WildGHand: Learning Anti-Perturbation Gaussian Hand Avatars from Monocular In-the-Wild Videos</h3>
+              <p class="authors">Hanhui Li, <strong>Xuan Huang</strong>, Wanquan Liu, Yiqiang Cheng, Lei Chen, Yiqiang Yan, Xiaodan Liang, Chenqiang Gao</p>
+              <p class="venue">arXiv preprint arXiv:2602.20556, 2026</p>
+              <p class="resources">[ <a href="https://github.com/XuanHuang0/WildGHand">Code</a> ]</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>Last updated: May 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
