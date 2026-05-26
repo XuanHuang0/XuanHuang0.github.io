@@ -96,20 +96,14 @@ a:hover {
 }
 
 .avatar {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 176px;
   height: 176px;
   margin: 0 auto 22px;
   border-radius: 50%;
-  color: #fff;
-  background:
-    linear-gradient(145deg, rgba(43, 108, 176, 0.9), rgba(31, 41, 55, 0.96)),
-    radial-gradient(circle at 35% 25%, #d7e8ff 0, transparent 42%);
   border: 8px solid #f0f2f5;
-  font-family: Montserrat, Roboto, sans-serif;
-  font-size: 46px;
-  font-weight: 700;
+  object-fit: cover;
+  object-position: center;
 }
 
 .profile h1 {
